@@ -7,13 +7,7 @@ import { Recipe } from './recipe.model';
   styleUrls: ['./recipes.component.css']
 })
 export class RecipesComponent {
-  recipes:Recipe[] = [
-    new Recipe(
-      'test',
-      'test desc',
-      'C:/code/programacao/front/angular_basic/basic/src/assets/recipes.png'
-    )
-  ];
+  recipes:Recipe[] = [];
 
 
   ngOnInit() {

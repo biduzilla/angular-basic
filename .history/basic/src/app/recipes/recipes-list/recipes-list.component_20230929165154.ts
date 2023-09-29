@@ -12,8 +12,7 @@ export class RecipesListComponent {
       'test',
       'test desc',
       'https://cdn-icons-png.flaticon.com/512/3565/3565418.png'
-    ),
-    new Recipe(
+    ),new Recipe(
       'test',
       'test desc',
       'https://cdn-icons-png.flaticon.com/512/3565/3565418.png'

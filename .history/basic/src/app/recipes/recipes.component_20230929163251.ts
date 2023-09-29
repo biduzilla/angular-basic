@@ -11,7 +11,7 @@ export class RecipesComponent {
     new Recipe(
       'test',
       'test desc',
-      'C:/code/programacao/front/angular_basic/basic/src/assets/recipes.png'
+      'basic\src\assets\recipes.png'
     )
   ];
 

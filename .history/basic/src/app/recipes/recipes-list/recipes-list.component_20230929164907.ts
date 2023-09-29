@@ -11,12 +11,7 @@ export class RecipesListComponent {
     new Recipe(
       'test',
       'test desc',
-      'https://cdn-icons-png.flaticon.com/512/3565/3565418.png'
-    ),
-    new Recipe(
-      'test',
-      'test desc',
-      'https://cdn-icons-png.flaticon.com/512/3565/3565418.png'
+      'https://github.com/biduzilla/angular-basic/blob/main/basic/src/assets/recipes.png'
     )
   ]
 }

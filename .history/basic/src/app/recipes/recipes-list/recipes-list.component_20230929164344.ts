@@ -1,22 +1,15 @@
 import { Component } from '@angular/core';
-import { Recipe } from './recipe.model';
 
 @Component({
-  selector: 'app-recipes',
-  templateUrl: './recipes.component.html',
-  styleUrls: ['./recipes.component.css']
+  selector: 'app-recipes-list',
+  templateUrl: './recipes-list.component.html',
+  styleUrls: ['./recipes-list.component.css']
 })
-export class RecipesComponent {
+export class RecipesListComponent {
   recipes:Recipe[] = [
     new Recipe(
       'test',
       'test desc',
       'C:/code/programacao/front/angular_basic/basic/src/assets/recipes.png'
     )
-  ];
-
-
-  ngOnInit() {
-
-  }
 }

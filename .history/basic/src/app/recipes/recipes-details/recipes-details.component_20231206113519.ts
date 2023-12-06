@@ -6,12 +6,11 @@ import { Recipe } from '../recipe.model';
   templateUrl: './recipes-details.component.html',
   styleUrls: ['./recipes-details.component.css']
 })
-
 export class RecipesDetailsComponent implements OnInit {
   @Input() recipe: Recipe
 
-  constructor(){}
-
-  ngOnInit(): void {
+  OnInit(){
   }
+
+  constructor(){}
 }

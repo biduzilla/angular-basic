@@ -15,7 +15,7 @@ export class RecipesComponent {
   //   )
   // ];
 
-  selectedRecipe: Recipe;
+  selectedRecipe: Recipe = new Recipe();
 
   constructor() {}
 

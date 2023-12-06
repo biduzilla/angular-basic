@@ -8,7 +8,6 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipesListComponent {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
-  
   recipes:Recipe[] = [
     new Recipe(
       'test',

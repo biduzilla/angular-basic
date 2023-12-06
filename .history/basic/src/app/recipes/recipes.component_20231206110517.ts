@@ -17,7 +17,9 @@ export class RecipesComponent {
 
   selectedRecipe: Recipe;
 
-  constructor() {}
+  constructor() {
+    this.selectedRecipe = new Recipe(); // ou inicialize de acordo com a lógica do seu aplicativo
+  }
 
   ngOnInit() {
 

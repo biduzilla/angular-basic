@@ -15,9 +15,7 @@ export class RecipesComponent {
   //   )
   // ];
 
-  selectedRecipe: Recipe;
-
-  constructor() {}
+  selectedRecipe: Recipe = null;
 
   ngOnInit() {
 
